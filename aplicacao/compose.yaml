@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: pokedex
+    build: ./app
+    image: pokedex/trabalho-aws-academy
+    ports:
+      - '3001:3001'
