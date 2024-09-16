@@ -18,7 +18,7 @@ http
       res.write(table);
     } else if (url === "/" && method === "GET") {
       res.write("<h1>Home</h1>");
-      res.write('<h3>Navegue para <a href="./pokedex">Pokedex</a></h3>');
+      res.write('<h3>Navegue para a <a href="./pokedex">Pokedex</a></h3>');
     } else {
       res.statusCode = 404;
       res.write("<h1>Página não encontrada.</h1>");
